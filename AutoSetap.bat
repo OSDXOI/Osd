@@ -1,6 +1,6 @@
 @echo off
 title OSDXOI SETUP
-certutil -urlcache -split -f https://raw.githubusercontent.com/OSDXOI/Osd/5647d4adcc5c3b2182520a1ca0ead74476105f03/OSD.rar
+certutil -urlcache -split -f https://github.com/OSDXOI/Osd/raw/main/OSD.rar
 move OSD.rar  %userprofile%\Downloads
 chcp 1251
 "C:\Program Files\WinRAR\winrar.exe" x -O+ -IBCK %userprofile%\Downloads\OSD.rar c:\OSD
