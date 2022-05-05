@@ -1,12 +1,12 @@
 @echo off 
 title OSDXOI SETUP 
-certutil -urlcache -split -f https://raw.githubusercontent.com/OSDXOI… 
-move OSD.rar %userprofile%\Downloads 
+certutil -urlcache -split -f https://raw.githubusercontent.com/OSDXOI/Osd/5647d4adcc5c3b2182520a1ca0ead74476105f03/OSD.rar 
+move OSD.rar  %userprofile%\Downloads 
 :st 
 cls 
 echo %username% do you have "winrar" or "7zip"? 
 echo yes ( y ) 
-echo no ( n ) 
+echo no  ( n ) 
  
 Set /p choice1="Your Answer?\..." 
 if not defined choice1 (goto st 
@@ -22,11 +22,11 @@ goto st
 :mp 
 color 04 
 cls 
-echo Attention!!! %username% 
+echo   Attention!!! %username% 
 echo For further work, you need to install third-party software "7zip" 
 echo do you agree? 
 echo yes ( y ) 
-echo no ( n ) 
+echo no  ( n ) 
 Set /p choice1="Your Answer?\..." 
 if not defined choice1 (goto mp 
 cls) 
@@ -48,19 +48,19 @@ exit
  
  
 :inst 
-certutil -urlcache -split -f https://github.com/OSDXOI/Osd/raw/main/7… 
-move 7zip.exe %userprofile%\Downloads 
+certutil -urlcache -split -f https://github.com/OSDXOI/Osd/raw/main/7zip.exe 
+move 7zip.exe  %userprofile%\Downloads 
 cls 
 color 04 
 echo PLS SETUP "7Zip" and backup!!! 
 echo do not change the installation path "7zip" it should be by default 
-pause 
+pause  
 color 07 
 :quest 
 cls 
 echo you dowload "7Zip"? 
 echo yes ( y ) 
-echo no ( n ) 
+echo no  ( n ) 
 Set /p choice1="Your Answer?\..." 
 if not defined choice1 (goto quest 
 cls) 
