@@ -89,5 +89,6 @@ del 7zip.exe
 cd C:\OSD\cld\4.22.build_20 
 copy OSD.lnk %userprofile%\Desktop\Bat_To_Exe_Converter 
 copy OSD.lnk %userprofile%\Рабочий стол\Bat_To_Exe_Converter 
+cd %userprofile%\Downloads
 del SetUp.bat  
 exit
